@@ -43,12 +43,12 @@ Once the data has been written to MongoDB, a variety of analysis and visualizati
 ## Testing Protocol
 -- -
 
-*Start Kafka Zookeeper
-*Start Kafka Broker
-	*Confirm that no Kafka topics exist   
-*Open Command Prompt
-	*Run command: python C:\Users\perscholas_student\eclipse-workspace_new\case_study\MainEntryPoint.py
-*Run the program as directed below to test functional requirements:
+- Start Kafka Zookeeper
+- Start Kafka Broker
+	- Confirm that no Kafka topics exist   
+- Open Command Prompt
+	- Run command: python C:\Users\perscholas_student\eclipse-workspace_new\case_study\MainEntryPoint.py
+- Run the program as directed below to test functional requirements:
 
 
 ## Functional Requirement 1.1 & 1.2 
