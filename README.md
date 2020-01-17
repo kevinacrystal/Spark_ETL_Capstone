@@ -6,10 +6,10 @@ This consisted of three parts, all of which could be executed using a main Pytho
 ## Program Architecture
 -- -
 The program consists of four modules:
-	1. Part1_SparkSQL.py
-	2. Part2_SparkStreaming.py
-	3. Part3_Analysis_and_Visualization.py
-	4. MainEntryPoint.py
+1. Part1_SparkSQL.py
+2. Part2_SparkStreaming.py
+3. Part3_Analysis_and_Visualization.py
+4. MainEntryPoint.py
 
 ### Part1_SparkSQL.py
 The first module, Part1_SparkSQL.py, consists of three user-defined functions wrapped in a main function that runs these functions sequentially when called.
