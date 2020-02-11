@@ -1,6 +1,6 @@
 # Spark_ETL_Capstone
-WELCOME TO MY CASE STUDY!     
-I created a Spark application to perform ETL processes.
+    
+This Spark application performs ETL processes.
 This consisted of three parts, all of which could be executed using a main Python program that served as a user interface.
 
 ## Program Architecture
@@ -12,7 +12,9 @@ The program consists of four modules:
 4. MainEntryPoint.py
 
 ### Part1_SparkSQL.py
-The first module, Part1_SparkSQL.py, consists of three user-defined functions wrapped in a main function that runs these functions sequentially when called.
+The first module, Part1_SparkSQL.py, extracts credit card data stored as tables in a relational database, performs some transformations, and loads the data to MongoDB. 
+
+It consists of three user-defined functions wrapped in a main function that runs these functions sequentially when called.
 
 **'extract_from_table'** uses PySpark to extract data from a relational database, MariaDB, and returns the data as a SparkSQL dataframe.
 
@@ -21,7 +23,9 @@ The first module, Part1_SparkSQL.py, consists of three user-defined functions wr
 **'load_into_mongo'** uses Spark to load the transformed data into MongoDB.
 
 ### Part2_SparkStreaming.py
-The second module, Part2_SparkStreaming.py, consists of four user-defined functions wrapped in a main function that runs these functions sequentially when called.
+The second module, Part2_SparkStreaming.py, extracts semi-structured healthcare data stored in the cloud, performs some transformations and finally loads the data to MongoDB. 
+
+It consists of four user-defined functions wrapped in a main function that runs these functions sequentially when called.
 
 **'kafka_producer'** uses Requests to extract data from a specified URL and then instantiates a KafkaProducer to write the data to a Kafka topic.
 

@@ -1,5 +1,5 @@
 import os
-os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.1 pyspark-shell'
+os.environ['PYSPARK_SUBMIT_ARGS'] = '--packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.4 pyspark-shell'
 import Part1_SparkSQL as a
 import Part2_SparkStreaming as b
 #import Part3_Analysis_and_Visualization as c
